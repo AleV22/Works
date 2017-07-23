@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="all">
+        <item
+            android:id="@+id/fortune"
+            android:icon="@drawable/ic_accessibility_black_24dp"
+            android:title="Fortune"
+            android:checkable="true"/>
+        <item
+            android:id="@+id/dailymail"
+            android:icon="@drawable/ic_public_black_24dp"
+            android:title="Daily Mail"
+            android:checkable="true"/>
+        <item
+            android:id="@+id/mashable"
+            android:icon="@drawable/ic_notifications_active_black_24dp"
+            android:title="The Lad Bible"
+            android:checkable="true"/>
+        <item
+            android:id="@+id/foxsport"
+            android:icon="@drawable/ic_whatshot_black_24dp"
+            android:title="Fox Sports"
+            android:checkable="true"/>
+        <item
+            android:id="@+id/mtvnews"
+            android:icon="@drawable/ic_audiotrack_black_24dp"
+            android:title="MTV News"
+            android:checkable="true"/>
+        <item
+            android:id="@+id/techcrunch"
+            android:icon="@drawable/ic_settings_input_hdmi_black_24dp"
+            android:title="Techcrunch"
+            android:checkable="true"/>
+        <item
+            android:id="@+id/favoritos"
+            android:icon="@drawable/ic_star_black_black_24dp"
+            android:title="Favoritos"
+            android:checkable="true"/>
+        <item
+            android:id="@+id/signout"
+            android:icon="@drawable/ic_power_settings_new_black_24dp"
+            android:title="Sign Out"
+            android:checkable="true"/>
+    </group>
+</menu>

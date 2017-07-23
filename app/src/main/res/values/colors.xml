@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#F44336</color>
+    <color name="colorPrimaryDark">#D32F2F</color>
+    <color name="colorAccent">#9E9E9E</color>
+    <color name="colorLetra">#ffffff</color>
+    <color name="fondo">#5f000000</color>
+    <color name="letra_roja">#ff0101</color>
+    <color name="facebook">#2066f1</color>
+    <color name="twitter">#43bcf9</color>
+</resources>

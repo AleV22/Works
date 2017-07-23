@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">reciclerNuevo</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <!--<string name="com.twitter.sdk.android.CONSUMER_KEY">3eMRZ8TjZru9BDs2hMK6cXTvy</string>-->
+    <!--<string name="com.twitter.sdk.android.CONSUMER_SECRET">sBfwXlkWsEjyMuTRMA5vkipMde7kAAOha82p7QKT5wESIImExE</string>-->
+    <string name="com.twitter.sdk.android.CONSUMER_KEY">H8Ep9MXTUZHAHXrFQTkxxZMy7</string>
+    <string name="com.twitter.sdk.android.CONSUMER_SECRET">XGqAlfmctQuzPen32vbShMJv9cV7SNQtWAY5YjeXlxe3cGSYxA</string>
+    <string name="facebook_app_id">1512786452093396</string>
+
+</resources>

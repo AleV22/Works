@@ -1,0 +1,93 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.usuario.reciclernuevo.View.fragments.FragmentRecyclerViewNews">
+
+    <ImageView
+        android:id="@+id/imageViewFoto"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@drawable/willy"
+        android:scaleType="centerCrop"
+        />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:background="@android:color/white"
+            />
+
+
+        <TextView
+            android:id="@+id/textViewCategoria"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="author"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:padding="5dp"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/colorLetra"
+            android:layout_marginLeft="10dp"
+            android:textAllCaps="true"
+            />
+
+        <me.grantland.widget.AutofitTextView
+            android:layout_below="@id/textViewCategoria"
+            android:id="@+id/textViewNombre"
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:text="Encabezado"
+            android:textColor="@android:color/black"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:textSize="30dp"
+            android:maxLines="2"
+            android:textStyle="bold"
+            app:minTextSize="16sp"
+            android:layout_marginRight="10dp"
+            />
+
+        <TextView
+            android:layout_below="@id/textViewNombre"
+            android:id="@+id/textViewDescripcion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="blablabla"
+            android:textColor="@android:color/black"
+            android:layout_marginLeft="10dp"
+            android:maxLines="2"
+            android:layout_marginRight="10dp"
+            android:ellipsize="end"
+            />
+
+        <com.github.ivbaranov.mfb.MaterialFavoriteButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:mfb_animate_favorite="true"
+            app:mfb_animate_unfavorite="false"
+            app:mfb_padding="12"
+            app:mfb_favorite_image="@drawable/ic_star_black_24dp"
+            app:mfb_not_favorite_image="@drawable/ic_star_border_black_24dp"
+            app:mfb_rotation_duration="400"
+            app:mfb_rotation_angle="360"
+            app:mfb_bounce_duration="300"
+            app:mfb_color="black"
+            app:mfb_type="star"
+            app:mfb_size="55"
+            android:id="@+id/materialFavoriteButton"
+            android:layout_alignParentRight="true"
+            />
+
+    </RelativeLayout>
+</LinearLayout>

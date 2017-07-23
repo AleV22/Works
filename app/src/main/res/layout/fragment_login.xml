@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    android:layout_width="match_parent"
+    android:id="@+id/idOfTheFragmentLogin"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    >
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/snlogosplash"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+         />
+
+    <com.twitter.sdk.android.core.identity.TwitterLoginButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/login_Twitter_button"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:visibility="gone"
+        />
+
+    <Button
+        android:id="@+id/customizeButtonTw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register with Twitter"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/tw__blue_default"
+        android:textColor="@color/tw__solid_white"/>
+
+    <Button
+        android:id="@+id/customizeButtonFb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register with Facebook"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/com_facebook_blue"
+        android:textColor="@color/tw__solid_white"
+        />
+
+    <com.facebook.login.widget.LoginButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/login_Facebook_button"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:layout_margin="10dp"
+        android:textSize="18dp"
+        android:visibility="gone"
+        />
+
+</LinearLayout>

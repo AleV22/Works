@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "165018004690",
+    "firebase_url": "https://snapsnapsnap-376af.firebaseio.com",
+    "project_id": "snapsnapsnap-376af",
+    "storage_bucket": "snapsnapsnap-376af.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:165018004690:android:4100f4045b8c868a",
+        "android_client_info": {
+          "package_name": "com.example.usuario.reciclernuevo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "165018004690-a6qt5a6u61k3boiv15ndhubapuq53bku.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.usuario.reciclernuevo",
+            "certificate_hash": "1e6884ffdf7680b47c2e9bb9c2e7e800ccc49372"
+          }
+        },
+        {
+          "client_id": "165018004690-jnd8hhf9u671jt73bghgj8s9q6un9f1u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCs-8PkwPMiTyhl3nVthJeNvNjc258rTys"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "165018004690-jnd8hhf9u671jt73bghgj8s9q6un9f1u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
